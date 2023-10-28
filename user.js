@@ -27,7 +27,8 @@ user_pref("dom.webaudio.enabled", false);
 // Disable experiments
 user_pref("extensions.experiments.enabled", false);
 
-// Disable recommendations
+// Disable addon recommendations
+user_pref("extensions.getAddons.discovery.api_url", "");
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 
 // Disable WebRTC
