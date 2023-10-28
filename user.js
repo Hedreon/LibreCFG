@@ -54,6 +54,9 @@ user_pref("browser.safebrowsing.downloads.remote.url", "");
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.phishing.enabled", false);
 
+// Disable new tab page
+user_pref("browser.newtabpage.enabled", false);
+
 //// DEFAULTS \\\\
 // Disable usage of download directory
 user_pref("browser.download.useDownloadDir", false);
