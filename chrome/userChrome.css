@@ -1,23 +1,5 @@
-/*** Remove unnecessary items from context menu ***/
-
-/* Email Image..., Save Link to Pocket, Set Image as Desktop Background... (and preceding separator), Inspect Accessibility Properties */
+/**** Remove unnecessary items from context menus ****/
+/** Email Image..., Save Link to Pocket, Set Image as Desktop Background... (and preceding separator), Inspect Accessibility Properties **/
 #context-sendimage, #context-savelinktopocket, #context-setDesktopBackground, #context-sep-setbackground, #context-inspect-a11y {
   display: none !important;
-}
-
-/*** Remove "Proton Zap" ***/
-
-.proton-zap {
-    border-image: none !important;
-}
-
-/*** Tighter menu spacing ***/
-
-menupopup:not(.in-menulist) > menuitem, menupopup:not(.in-menulist) > menu {
-  padding-block: 4px !important;
-  min-height: unset !important;
-}
-
-:root {
-  --arrowpanel-menuitem-padding: 4px 8px !important;
 }
