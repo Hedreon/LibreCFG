@@ -21,9 +21,6 @@ user_pref("device.sensors.orientation.enabled", false);
 user_pref("device.sensors.proximity.enabled", false);
 user_pref("device.sensors.test.events", false);
 
-// Disable WebAudio API
-user_pref("dom.webaudio.enabled", false);
-
 // Disable experiments
 user_pref("extensions.experiments.enabled", false);
 
