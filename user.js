@@ -56,7 +56,7 @@ user_pref("browser.safebrowsing.phishing.enabled", false);
 user_pref("browser.newtabpage.enabled", false);
 
 //// DEFAULTS \\\\
-// Disable usage of download directory
+// Always ask where to download files
 user_pref("browser.download.useDownloadDir", false);
 
 // Disable smooth scroll
