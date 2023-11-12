@@ -3,8 +3,3 @@
 #context-sendimage, #context-savelinktopocket, #context-pocket, #context-setDesktopBackground, #context-sep-setbackground, #context-inspect-a11y, #context-take-screenshot, #context-sep-screenshots {
   display: none !important;
 }
-
-/**** Remove Unified Extensions button ****/
-#unified-extensions-button {
-  display: none !important;
-}
