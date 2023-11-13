@@ -1,2 +1,2 @@
-# hJS
- hedreonJS - Hedreon's Firefox Configurations
+# hCFG
+hCFG - Hedreon's configurations for Gecko-based browsers
