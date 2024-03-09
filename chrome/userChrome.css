@@ -3,3 +3,9 @@
 #context-sendimage, #context-savelinktopocket, #context-pocket, #context-setDesktopBackground, #context-sep-setbackground, #context-inspect-a11y, #context-take-screenshot, #context-sep-screenshots {
   display: none !important;
 }
+
+/**** Remove clutter ****/
+/** Remove "Private Browsing" text **/
+#private-browsing-indicator-with-label > label {
+	display: none !important;
+}
