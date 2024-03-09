@@ -1,2 +1,3 @@
-# hCFG
-hCFG - Hedreon's configurations for Gecko-based browsers
+# LibreCFG
+
+LibreCFG - Hedreon's configuration for LibreWolf.
