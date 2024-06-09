@@ -19,8 +19,6 @@ user_pref("extensions.experiments.enabled", false);
 user_pref("messaging-system.rsexperimentloader.enabled", false);
 
 // Disable addon recommendations
-user_pref("extensions.getAddons.cache.enabled", false);
-user_pref("extensions.getAddons.discovery.api_url", "");
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 
 // Disable WebRTC
@@ -30,7 +28,6 @@ user_pref("media.peerconnection.enabled", false);
 user_pref("browser.safebrowsing.blockedURIs.enabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
-user_pref("browser.safebrowsing.downloads.remote.url", "");
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.phishing.enabled", false);
 
@@ -41,51 +38,44 @@ user_pref("network.connectivity-service.enabled", false);
 // Disable Geolocation
 user_pref("geo.enabled", false);
 
-// Disable tracking of camera and microphone status
+// Disable tracking camera and microphone availability
 user_pref("media.navigator.enabled", false);
 
-// Prevent websites from messing with your clipboard
+// Disable clipboard activity tracking
 user_pref("dom.event.clipboardevents.enabled", false);
 
 //// DEFAULTS \\\\
-// Always ask where to download files
-user_pref("browser.download.useDownloadDir", false);
-
 // Enable CSS customizations
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
-// Disable the autocompletion of forms
+// Disable form autocomplete
 user_pref("dom.forms.autocomplete.formautofill", false);
-
-// Disable the new tab page
-user_pref("browser.newtabpage.enabled", false);
 
 // Clear open windows on shutdown
 user_pref("privacy.clearOnShutdown.openWindows", true);
 
-// Enable randomization in private windows
+// Enable daily fingerprint randomization
+user_pref("privacy.resistFingerprinting.randomization.daily_reset.enabled", true);
 user_pref("privacy.resistFingerprinting.randomization.daily_reset.private.enabled", true);
 
 // Spoof language to English
 user_pref("privacy.spoof_english", 2);
 
-// Completely disable DRM
-user_pref("media.eme.enabled", false);
-user_pref("media.gmp-widevinecdm.enabled", false);
-
-// Completely disable offline caching
+// Disable offline caching
 user_pref("browser.cache.disk.enable", false);
 user_pref("browser.cache.memory.enable", false);
 
+// Disable autoplay
+user_pref("media.autoplay.blocking_policy", 2);
+
+// Set default emoji
+user_pref("font.name-list.emoji", "Twemoji Mozilla, Segoe UI Emoji");
+
+// Enable browser toolbox
+user_pref("devtools.chrome.enabled", true);
+user_pref("devtools.debugger.remote-enabled", true);
+
 //// QUALITY OF LIFE \\\\
-// Disable default browser check
-user_pref("browser.shell.checkDefaultBrowser", false);
-
-// Disable translations
-user_pref("browser.translations.enable", false);
-user_pref("browser.translations.automaticallyPopup", false);
-user_pref("browser.translations.select.enable", false);
-
 // Disable Firefox View
 user_pref("browser.tabs.tabmanager.enabled", false);
 user_pref("browser.firefox-view.max-history-rows", 0);
@@ -100,11 +90,8 @@ user_pref("browser.tabs.firefox-view.notify-for-tabs", false);
 // Combine private windows
 user_pref("browser.privateWindowSeparation.enabled", false);
 
-// Load bookmarks in the background
+// Disable loading bookmarks in the background
 user_pref("browser.tabs.loadBookmarksInBackground", false);
 
 // Highlight all matches in the find bar
 user_pref("findbar.highlightAll", true);
-
-// Disable autoplay
-user_pref("media.autoplay.blocking_policy", 2);
