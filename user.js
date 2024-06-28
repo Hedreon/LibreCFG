@@ -1,4 +1,4 @@
-//// TELEMETRY \\\\
+//// PRIVACY \\\\
 // Disable crash reporting
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 user_pref("browser.crashReports.unsubmittedCheck.enabled", false);
@@ -43,6 +43,12 @@ user_pref("media.navigator.enabled", false);
 
 // Disable clipboard activity tracking
 user_pref("dom.event.clipboardevents.enabled", false);
+
+// Disable SpeechSynthesis API
+user_pref("media.webspeech.synth.enabled", false);
+
+// Disable document fonts
+user_pref("browser.display.use_document_fonts", 0);
 
 //// DEFAULTS \\\\
 // Enable CSS customizations
