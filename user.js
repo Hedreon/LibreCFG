@@ -75,7 +75,7 @@ user_pref("browser.cache.memory.enable", false);
 user_pref("media.autoplay.blocking_policy", 2);
 
 // Set default emoji
-user_pref("font.name-list.emoji", "Twemoji Mozilla, Segoe UI Emoji");
+user_pref("font.name-list.emoji", "Twemoji Mozilla");
 
 // Enable browser toolbox
 user_pref("devtools.chrome.enabled", true);
@@ -84,15 +84,9 @@ user_pref("devtools.debugger.prompt-connection", false);
 
 //// QUALITY OF LIFE \\\\
 // Disable Firefox View
-user_pref("browser.tabs.tabmanager.enabled", false);
 user_pref("browser.firefox-view.max-history-rows", 0);
-user_pref("browser.firefox-view.search.enabled", false);
 user_pref("browser.firefox-view.view-count", 0);
 user_pref("browser.firefox-view.virtual-list.enabled", false);
-user_pref("browser.tabs.firefox-view", false);
-user_pref("browser.tabs.firefox-view-newIcon", false);
-user_pref("browser.tabs.firefox-view-next", false);
-user_pref("browser.tabs.firefox-view.notify-for-tabs", false);
 
 // Combine private windows
 user_pref("browser.privateWindowSeparation.enabled", false);
