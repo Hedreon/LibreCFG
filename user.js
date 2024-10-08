@@ -50,6 +50,10 @@ user_pref("media.webspeech.synth.enabled", false);
 // Disable document fonts
 user_pref("browser.display.use_document_fonts", 0);
 
+// Disable using tab titles as window titles
+user_pref("privacy.exposeContentTitleInWindow", false);
+user_pref("privacy.exposeContentTitleInWindow.pbm", false);
+
 //// DEFAULTS \\\\
 // Enable CSS customizations
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
