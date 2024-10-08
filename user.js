@@ -103,3 +103,4 @@ user_pref("findbar.highlightAll", true);
 
 // Disable tab hover previews
 user_pref("browser.tabs.hoverPreview.enabled", false);
+user_pref("browser.tabs.hoverPreview.showThumbnails", false);
