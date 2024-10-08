@@ -100,3 +100,6 @@ user_pref("browser.tabs.loadBookmarksInBackground", false);
 
 // Highlight all matches in the find bar
 user_pref("findbar.highlightAll", true);
+
+// Disable tab hover previews
+user_pref("browser.tabs.hoverPreview.enabled", false);
