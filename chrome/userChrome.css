@@ -1,11 +1,23 @@
-/**** Remove unnecessary items from context menus ****/
-/** Email Image..., Save Link/Page to Pocket, Set Image as Desktop Background... (and preceding separator), Inspect Accessibility Properties, Take Screenshot (and preceding separator) **/
-#context-sendimage, #context-savelinktopocket, #context-pocket, #context-setDesktopBackground, #context-sep-setbackground, #context-inspect-a11y, #context-take-screenshot, #context-sep-screenshots {
-  display: none !important;
+/* Menu */
+#context-sendimage, #context-setDesktopBackground, #context-sep-setbackground,
+#context-inspect-a11y, #context-take-screenshot, #context-sep-screenshots {
+    display: none !important;
 }
 
-/**** Remove clutter ****/
-/** Remove "Private Browsing" text **/
+/* Window */
+#navigator-toolbox {
+    border: none !important;
+    -moz-window-dragging: drag !important;
+}
+
+#PersonalToolbar {
+    -moz-window-dragging: drag !important;
+}
+
 #private-browsing-indicator-with-label > label {
-	display: none !important;
+    display: none !important;
+}
+
+#alltabs-button {
+    display: none !important;
 }
