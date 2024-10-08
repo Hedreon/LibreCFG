@@ -1,0 +1,11 @@
+@-moz-document url("about:newtab") {
+    body {
+        background: #2B2A33 !important;
+    }
+}
+
+@-moz-document url("about:blank") {
+    body {
+        background: #2B2A33 !important;
+    }
+}
